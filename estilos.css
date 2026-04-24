@@ -1,0 +1,87 @@
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra encabezado */
+.top-bar {
+    background: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.icon {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1521336575822-6da63fb45455') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
