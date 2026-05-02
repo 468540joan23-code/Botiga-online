@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcas</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .precio {
+            color: green;
+            font-weight: bold;
+        }
+
+        a {
+            display: block;
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <img src="./img/LogoB&L.png" alt="Bolso 1">
+            <div class="card-content">
+                <a href="./Bimba&Lola.html">Bolsos Bimba & Lola</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/LogoCH.png" alt="Bolso 2">
+            <div class="card-content">
+                <a href="./CarolinaHerrera.html">Bolsos Carolina Herrera</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/LogoGuess.png" alt="Bolso 3">
+            <div class="card-content">
+                <a href="./Guess.html">Bolsos Guess</a>
+            </div>
+        </div>
+  
+        <div class="card">
+            <img src="./img/LogoMK.png" alt="Bolso 4">
+            <div class="card-content">
+                <a href="./MichaelKors.html">Bolsos Michael Kors</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="./img/LogoZ&V.png" alt="Bolso 5">
+            <div class="card-content">
+                <a href="./Zadig&Voltaire.html">Bolsos Zadig & Voltaire</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
