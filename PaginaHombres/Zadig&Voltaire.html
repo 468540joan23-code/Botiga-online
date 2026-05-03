@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolsos Zadig & Voltaire</title>
+    <title>Zadig & Voltaire - Colección Hombre</title>
     <style>
-
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Courier New', Courier, monospace; /* Toque más alternativo */
             margin: 0;
-            background-color: #f8f8f8;
+            background-color: #ffffff;
         }
 
         .container {
@@ -20,11 +19,16 @@
         }
 
         .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background: #fff;
+            border-radius: 0px; /* Estilo más recto y minimalista */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             overflow: hidden;
-            transition: transform 0.2s;
+            transition: opacity 0.3s;
+            border: 1px solid #e0e0e0;
+        }
+
+        .card:hover {
+            opacity: 0.8;
         }
 
         .card img {
@@ -35,96 +39,111 @@
 
         .card-content {
             padding: 15px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000;
         }
 
         .precio {
-            color: green;
+            color: #555;
             font-weight: bold;
+            margin: 10px 0;
         }
 
         button {
-            background-color: black;
+            background-color: #000;
             color: white;
             border: none;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 12px;
             cursor: pointer;
             width: 100%;
+            font-weight: bold;
+            text-transform: uppercase;
         }
-        
+
+        button:hover {
+            background-color: #333;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
+
         <div class="card">
-            <img src="./img/Zadig&Voltaire1.png" alt="Bolso 1">
+            <img src="./img/bolsoszadig&voltairehombre1.png" alt="Bolso 1">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">395 €</p>
-                <button>Comprar</button>
+                <h3>Bolso Sunny Zadig</h3>
+                <p class="precio">345 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Zadig&Voltaire2.png" alt="Bolso 2">
+            <img src="./img/bolsoszadig&voltairehombre2.png" alt="Bolso 2">
             <div class="card-content">
-                <h3>Bolso Casual</h3>
-                <p class="precio">245 €</p>
-                <button>Comprar</button>
+                <h3>Mochila Rock Navy</h3>
+                <p class="precio">410 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Zadig&Voltaire3.png" alt="Bolso 3">
+            <img src="./img/bolsoszadig&voltairehombre3.png" alt="Bolso 3">
             <div class="card-content">
-                <h3>Bolso de Viaje</h3>
-                <p class="precio">495 €</p>
-                <button>Comprar</button>
+                <h3>Bandolera Leather Black</h3>
+                <p class="precio">285 €</p>
+                <button>Añadir</button>
             </div>
         </div>
   
         <div class="card">
-            <img src="./img/Zadig&Voltaire4.png" alt="Bolso 4">
+            <img src="./img/bolsoszadig&voltairehombre4.png" alt="Bolso 4">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">395 €</p>
-                <button>Comprar</button>
+                <h3>Maletín de Viaje Nomad</h3>
+                <p class="precio">490 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Zadig&Voltaire5.png" alt="Bolso 5">
+            <img src="./img/bolsoszadig&voltairehombre5.png" alt="Bolso 5">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">445 €</p>
-                <button>Comprar</button>
+                <h3>Tote Bag Urban Style</h3>
+                <p class="precio">155 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Zadig&Voltaire6.png" alt="Bolso 6">
+            <img src="./img/bolsoszadig&voltairehombre6.png" alt="Bolso 6">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">395 €</p>
-                <button>Comprar</button>
+                <h3>Pouch Rock Leather</h3>
+                <p class="precio">195 €</p>
+                <button>Añadir</button>
             </div>
         </div>
         
         <div class="card">
-            <img src="./img/Zadig&Voltaire7.png" alt="Bolso 7">
+            <img src="./img/bolsoszadig&voltairehombre7.png" alt="Bolso 7">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">175 €</p>
-                <button>Comprar</button>
+                <h3>Cartera XL Zadig</h3>
+                <p class="precio">120 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Zadig&Voltaire8.png" alt="Bolso 8">
+            <img src="./img/bolsoszadig&voltairehombre8.png" alt="Bolso 8">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">495 €</p>
-                <button>Comprar</button>
+                <h3>Mochila Camo Print</h3>
+                <p class="precio">375 €</p>
+                <button>Añadir</button>
             </div>
         </div>
 

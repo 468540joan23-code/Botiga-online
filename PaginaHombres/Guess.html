@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolsos Guess</title>
+    <title>Guess - Colección Hombre</title>
     <style>
-
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             background-color: #f8f8f8;
         }
@@ -21,109 +20,133 @@
 
         .card {
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             overflow: hidden;
-            transition: transform 0.2s;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
         }
 
         .card img {
             width: 100%;
-            height: 400px;
+            height: 420px;
             object-fit: cover;
+            background-color: #fff;
         }
 
         .card-content {
-            padding: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1rem;
+            margin: 0 0 10px 0;
+            color: #222;
+            font-weight: 600;
         }
 
         .precio {
-            color: green;
+            color: #b12704; /* Rojo Guess/Elegante */
+            font-size: 1.2rem;
             font-weight: bold;
+            margin-bottom: 15px;
         }
 
         button {
-            background-color: black;
+            background-color: #000;
             color: white;
             border: none;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 12px;
+            border-radius: 4px;
             cursor: pointer;
             width: 100%;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #333;
         }
         
     </style>
 </head>
 <body>
+
     <div class="container">
+
         <div class="card">
-            <img src="./img/Guess1.png" alt="Bolso 1">
+            <img src="./img/bolsosguesshombre1.png" alt="Duffle Bag Logotipo">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">155 €</p>
+                <h3>Duffle Bag 4G Logo Black</h3>
+                <p class="precio">165 €</p>
                 <button>Comprar</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Guess2.png" alt="Bolso 2">
+            <img src="./img/bolsosguesshombre2.png" alt="Bolso Viaje Gris">
             <div class="card-content">
-                <h3>Bolso Casual</h3>
-                <p class="precio">145 €</p>
+                <h3>Travel Bag Vezzola Grey</h3>
+                <p class="precio">180 €</p>
                 <button>Comprar</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Guess3.png" alt="Bolso 3">
+            <img src="./img/bolsosguesshombre3.png" alt="Bolso Viaje Marrón">
             <div class="card-content">
-                <h3>Bolso de Viaje</h3>
-                <p class="precio">125 €</p>
+                <h3>Weekend Bag Logo Brown</h3>
+                <p class="precio">185 €</p>
                 <button>Comprar</button>
             </div>
         </div>
   
         <div class="card">
-            <img src="./img/Guess4.png" alt="Bolso 4">
+            <img src="./img/bolsosguesshombre4.png" alt="Bandolera Piel">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">145 €</p>
+                <h3>Bandolera Piel Texturizada</h3>
+                <p class="precio">95 €</p>
                 <button>Comprar</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Guess5.png" alt="Bolso 5">
+            <img src="./img/bolsosguesshombre5.png" alt="Bolso Logo Print">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">125 €</p>
+                <h3>Travel Duffle Heritage</h3>
+                <p class="precio">175 €</p>
                 <button>Comprar</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Guess6.png" alt="Bolso 6">
+            <img src="./img/bolsosguesshombre6.png" alt="Pouch de mano">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">165 €</p>
+                <h3>Pouch de Mano 4G Logo</h3>
+                <p class="precio">75 €</p>
                 <button>Comprar</button>
             </div>
         </div>
         
         <div class="card">
-            <img src="./img/Guess7.png" alt="Bolso 7">
+            <img src="./img/bolsosguesshombre7.png" alt="Neceser">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">125 €</p>
+                <h3>Neceser de Viaje Vezzola</h3>
+                <p class="precio">65 €</p>
                 <button>Comprar</button>
             </div>
         </div>
 
         <div class="card">
-            <img src="./img/Guess8.png" alt="Bolso 8">
+            <img src="./img/bolsosguesshombre8.png" alt="Tote Guess 1981">
             <div class="card-content">
-                <h3>Bolso Elegante</h3>
-                <p class="precio">155 €</p>
+                <h3>Tote Bag Guess 1981 Navy</h3>
+                <p class="precio">120 €</p>
                 <button>Comprar</button>
             </div>
         </div>
