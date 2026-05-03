@@ -20,18 +20,36 @@
   </header>
 
 
-  <!-- Para el formulario de socios, inspirado en Guess -->
+  <!-- Para el formulario de socios --> 
   <div id="form_socios">
+    <form action="./" method="post">
+      <label for="nombre" class="preg_form_socios"> * Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
 
-  
-    <div id="dentro_form_socios">
-    <p>prueba</p>
-    </div>
+      <label for="apellido" class="preg_form_socios"> * Apellido: </label>
+      <input type="text" id="apellido" name="apelido" required>
 
-    <div id="lado_form">
+      <label for="correo" class="preg_form_socios"> * Correo electrónico: </label>
+      <input type="email" id="correo" name="correo" required>
 
-    </div>
+        <label for="cumpleaños" class="preg_form_socios"> * Fecha de nacimiento: </label>
+        <input type="date" id="cumpleaños" name="cumpleaños" min="01-01-1926" max="31-12-2010">
+
+        <label for="genero" class="preg_form_socios"> * Género: </label>
+          <select id="genero" name="genero">
+            <option>Mujer</option>
+            <option>Hombre</option>
+            <option>Otro</option>
+            <option>Prefiero no decirlo</option>
+          </select>
+        
+        <button type="submit" id="registrarse">
+          Registrame
+        </button>
+      </form>
   </div>
+   
+
 
 </body>
 </html>

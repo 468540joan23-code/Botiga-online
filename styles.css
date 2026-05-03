@@ -1,31 +1,12 @@
-/* .top-bar, .barnav {
-    background-color: #633d2e;
-    color: white;
-}
-
-.barnav {
-    background-color: #633d2e;
-    color: white;
-} */
-
-/* DENTRO DE INDEX.HTML  */
-ul li a {
-    display: block;
-    color: white;
-    padding: 14px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 20px;
-  
-}
-
-img {
-    width: 100%;
+/* ESTILOS GLOBALES Y ESTRUCTURA BASE */
+body {
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
 }
 
 header {
-    font-family: 
+    background-color: #fff;
 }
 
 .barra_marron {
@@ -35,90 +16,109 @@ header {
     text-align: center;
     display: flex;
     height: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu {
-  list-style-type: none;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  background-color: #C19A6B;
-  margin: 0;
-  display: flex;
+.menu, .menu2 {
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: #C19A6B;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.menu2 {
-  list-style-type: none;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  background-color: #494949;
-  margin: 0;
-  display: flex;
+.opciones a, .opciones2 a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.opciones2:hover {
-    background-color: #2d2d2d;
-    border-radius: 10%;
-    font-weight: bold;
-}
-
-.opciones:hover {
+.opciones:hover, .opciones2:hover {
     background-color: #856a4a;
-    border-radius: 10%;
+    border-radius: 5px;
+}
+
+/* GRID DE PRODUCTOS Y TARJETAS */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Responsive para la página de Marcas (2 columnas según Marcas.html) */
+.container-marcas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s, opacity 0.3s;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.precio {
+    color: #111;
     font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* BOTONES */
+button, .btn-buy {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* ESPECÍFICOS DE PÁGINAS */
+#foto_socios {
+    width: 100%;
 }
 
 #club {
-    display: block;
+    padding: 40px;
     text-align: center;
-    border-top:  3px #caa534 solid;
-    border-bottom: 3px #caa534 solid;
-    padding-bottom: 45px;
-    padding-top: 45px;
+    background-color: #fff;
 }
-
-
-#boton_socios {
-    margin-top: 20px;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 3px #caa534 solid ;
-    text-decoration: none;
-    display: inline-block;
-    color: black;
-}
-
-#boton_socios:hover {
-    background-color: #d0b052;
-    color: white;
-    /* All hace referencia la propiedad que cambia de la etiqueta (como el fondo o el color de la letra), 0.3 es la duración de la transición y ease-in es el tipo */
-    transition: all 0.3s ease-in;
-    font-weight: bold;
-}
-
-
-#text_socios {
-    color: #caa534;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* DENTRO DE SOCIOS.HTML  */
-
-#form_socios {
-    display: flex;
-}
-
-
-#dentro_form_socios {
-    
-}
-
-#lado_socios {
-    background-color: #7b7b7b;
-
-}
-
