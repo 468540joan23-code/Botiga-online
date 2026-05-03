@@ -123,3 +123,49 @@ button:hover {
     background-color: #fff;
 }
 
+a {
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* PAGINA CONTACTO */
+#text_contacto {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
+#container_contacto {
+    display: flexbox;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carta_contacto {
+    border-radius: 15px;
+    padding: 30px;
+    width: 250px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border: 1px solid #e5e5e5;
+    align-content: center;
+    font-weight: bold;
+    width: 500px;text-align: center; 
+    margin: 50px;
+}
+
+.inf_contacto {
+    text-decoration: none;
+}
