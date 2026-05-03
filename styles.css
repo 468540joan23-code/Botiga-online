@@ -15,7 +15,7 @@ header {
     color: rgb(255, 246, 240);
     text-align: center;
     display: flex;
-    height: 30px;
+    height: 50px;
     align-items: center;
     justify-content: center;
 }
